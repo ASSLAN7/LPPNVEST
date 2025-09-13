@@ -18,9 +18,7 @@
     "@types/react": "18.3.3",
     "@types/node": "20.14.12"
   },
- "engines": {
-  "node": "22.x"
-}
-
+  "engines": {
+    "node": "22.x"
   }
 }
