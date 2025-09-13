@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
+    "prestart": "node version-check.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -17,9 +18,7 @@
     "@types/react": "18.3.3",
     "@types/node": "20.14.12"
   },
- "engines": {
-  "node": ">=22.0.0"
-}
-
+  "engines": {
+    "node": ">=22.0.0"
   }
 }
